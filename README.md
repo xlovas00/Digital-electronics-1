@@ -18,3 +18,17 @@ TEST | TEST 2
 ------------ | -------------
 afsasf | jkllkjjkl
 asddas | abcd
+
+#### ukazka kodu
+```vhdl
+entity gates is
+    port(
+        a_i    : in  std_logic;         -- Data input
+        b_i    : in  std_logic;         -- Data input
+        c_i    : in  std_logic;         -- Data input
+        f_o    : out std_logic          -- OR output function
+        --fand_o : out std_logic;         -- AND output function
+        --fxor_o : out std_logic          -- XOR output function
+    );
+end entity gates;
+```
