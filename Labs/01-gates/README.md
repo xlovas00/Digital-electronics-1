@@ -35,3 +35,4 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 #### Time waveforms
+![Three functions](https://github.com/xlovas00/Digital-electronics-1/edit/main/Labs/01-gates/Images/three_functions.png)
