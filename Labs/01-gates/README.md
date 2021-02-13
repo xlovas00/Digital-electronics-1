@@ -38,4 +38,4 @@ end architecture dataflow;
 ![Three functions](Images/three_functions_t.png)
 
 ### Boolean pustulates
-![Boolean postulates](Images/boolean_f.png)
+![Boolean postulates](Images/boolean_func.png)
