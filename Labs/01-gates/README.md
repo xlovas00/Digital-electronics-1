@@ -2,7 +2,7 @@
 
 ## EDA playground link
 
-## VHDL kód
+## VHDL code
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -20,11 +20,9 @@ begin
 
 end architecture dataflow;
 ```
-### Tři funkce
+### Functions
 
-#### Funkce
-
-#### Tabulka hodnot
+#### Table
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
@@ -36,4 +34,4 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-#### Časové průběhy
+#### Time waveforms
