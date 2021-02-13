@@ -1,4 +1,5 @@
 # 01-gates
+-----
 
 ## EDA playground link
 [LINK](https://www.edaplayground.com/x/KnHh)
@@ -40,4 +41,9 @@ end architecture dataflow;
 ### Boolean pustulates
 ![Boolean postulates](Images/boolean_func.png)
 #### Time waveforms
-![Boolean time waveforms](Images/boolean_t.png)
+![Boolean postulates - time waveforms](Images/boolean_t.png)
+
+### Distributive laws
+![Distributive laws](Images/distributive_func.png)
+#### Time waveforms
+![Distributive laws - time waveforms](Images/distributive_t.png)
