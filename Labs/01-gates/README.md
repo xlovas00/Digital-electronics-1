@@ -36,3 +36,6 @@ end architecture dataflow;
 
 #### Time waveforms
 ![Three functions](Images/three_functions_t.png)
+
+### Boolean pustulates
+![Boolean postulates](Images/boolean_f.png)
