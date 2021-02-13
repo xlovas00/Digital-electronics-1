@@ -2,7 +2,7 @@
 
 ## EDA playground link
 
-## VHQL code
+## VHDL code
 
 ### Three functions
 
