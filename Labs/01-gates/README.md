@@ -1,6 +1,4 @@
 # 01-gates
------
-
 ## EDA playground link
 [LINK](https://www.edaplayground.com/x/KnHh)
 ## VHDL code
