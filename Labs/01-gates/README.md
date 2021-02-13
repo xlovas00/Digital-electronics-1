@@ -35,4 +35,4 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 #### Time waveforms
-![Three functions](Images/three_functions.png)
+![Three functions](Images/three_functions_t.png)
