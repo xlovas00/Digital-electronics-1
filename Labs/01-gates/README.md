@@ -39,3 +39,5 @@ end architecture dataflow;
 
 ### Boolean pustulates
 ![Boolean postulates](Images/boolean_func.png)
+#### Time waveforms
+![Boolean time waveforms](Images/boolean_t.png)
