@@ -20,6 +20,7 @@ begin
 end architecture dataflow;
 ```
 ### Functions
+![Three functions](Images/three_functions_func.png)
 
 #### Table
 | **c** | **b** |**a** | **f(c,b,a)** |
@@ -34,7 +35,7 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 #### Time waveforms
-![Three functions](Images/three_functions_t.png)
+![Three functions - time waveforms](Images/three_functions_t.png)
 
 ### Boolean pustulates
 ![Boolean postulates](Images/boolean_func.png)
