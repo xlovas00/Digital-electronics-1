@@ -130,4 +130,5 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
+### Console output with one error
 
