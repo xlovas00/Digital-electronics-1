@@ -23,8 +23,10 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 ### Karnaugh maps
 #### B equals A
-![B equals A](Images/b_equals_a.png)
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/b_equals_a.png" width="418" height="345">
+
 #### B is greater than A
-![B is greater than A](Images/b_is_greater_than_a.png)
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/b_is_greater_than_a.png" width="418" height="345">
+
 #### B is less than A
-![B is less than A](Images/b_is_less_than_a.png)
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/b_is_less_than_a.png" width="418" height="345">
