@@ -131,4 +131,16 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Console output with one error
-
+```
+[2021-02-18 10:01:28 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
+analyze design.vhd
+analyze testbench.vhd
+elaborate tb_comparator_4bit
+testbench.vhd:51:9:@0ms:(report note): Stimulus process started
+testbench.vhd:120:9:@1us:(assertion error): Test failed for input combination: 0001, 0001
+testbench.vhd:125:9:@1us:(report note): Stimulus process finished
+Finding VCD file...
+./dump.vcd
+[2021-02-18 10:01:29 EST] Opening EPWave...
+Done
+```
