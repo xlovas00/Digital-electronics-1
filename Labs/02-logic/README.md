@@ -30,3 +30,6 @@
 
 #### B is less than A
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/b_is_less_than_a.png" width="418" height="345">
+
+#### Simplified functions
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/functions.png">
