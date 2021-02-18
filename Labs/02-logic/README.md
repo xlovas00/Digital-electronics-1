@@ -33,3 +33,6 @@
 
 #### Simplified functions
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/02-logic/Images/functions.png">
+
+#### Link EDA 2-bit comparator
+[https://www.edaplayground.com/x/KGTh](https://www.edaplayground.com/x/KGTh)
