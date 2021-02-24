@@ -107,19 +107,19 @@ end Behavioral;
    - Add/create source or skip --> Next
    - Default part
    - Choose from **Boards** Nexys A7-50T --> Next
-   - Finnish
+   - Finish
 2. **How to add source file**
    - File --> Add Sources...
    - Add or create design sources
    - Add/create file
    - File type **VHDL**
-   - Finnish
+   - Finish
 3. **How to add testbench file**
    - File --> Add Sources...
    - Add or create simulation sources
    - Add/create file
    - File type **VHDL**
-   - Finnish
+   - Finish
 4. **Simulation**
    - Flow --> Run Simulation --> Run Behavioral Simulation
    - **Zoom Fit** for better view 
@@ -129,4 +129,4 @@ end Behavioral;
    - Add or create constraints
    - Add/create file
    - File type **XDC**
-   - Finnish
+   - Finish
