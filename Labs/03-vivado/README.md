@@ -2,6 +2,40 @@
 ## Github link
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
 ## Table connection
+| **Component** | **Resistor [Ω]** | **PIN** | 
+| :-: | :-: | :-: |
+| SW0 | 10K | J15 |
+| SW1 |  |  |
+| SW2 |  |  | 
+| SW3 |  |  | 
+| SW4 |  |  |
+| SW5 |  |  | 
+| SW6 |  |  | 
+| SW7 |  |  | 
+| SW8 |  |  | 
+| SW9 |  |  | 
+| SW10 |  |  | 
+| SW11 |  |  | 
+| SW12 |  |  | 
+| SW13 |  |  | 
+| SW14 |  |  | 
+| SW15 |  |  | 
+| LED0 |  |  |
+| LED1 |  |  |
+| LED2 |  |  | 
+| LED3 |  |  | 
+| LED4 |  |  |
+| LED5 |  |  | 
+| LED6 |  |  | 
+| LED7 |  |  | 
+| LED8 |  |  | 
+| LED9 |  |  | 
+| LED10 |  |  | 
+| LED11 |  |  | 
+| LED12 |  |  | 
+| LED13 |  |  | 
+| LED14 |  |  | 
+| LED15 |  |  | 
 
 ## Two-bit wide 4-to-1 multiplexer
 ### VHDL achitecture
