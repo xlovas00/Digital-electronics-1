@@ -1,7 +1,7 @@
 # 03-vivado
 ## Github link
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
-## Table connection
+## Table with connection of 16 slide switches and 16 LEDs
 | **Component** | **Resistor [Ω]** | **PIN** | 
 | :-: | :-: | :-: |
 | SW0 | 10K | J15 |
