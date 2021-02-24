@@ -124,3 +124,9 @@ end Behavioral;
    - Flow --> Run Simulation --> Run Behavioral Simulation
    - **Zoom Fit** for better view 
    - Right click on output/input for Signal color or Radix
+5. **How to add XDC constraints file**
+   - File --> Add Sources...
+   - Add or create constraints
+   - Add/create file
+   - File type **XDC**
+   - Finnish
