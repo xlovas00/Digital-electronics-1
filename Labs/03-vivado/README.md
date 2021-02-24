@@ -1,7 +1,7 @@
 # 03-vivado
 ## Github link
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
-## Table connection
+## Table with connection of 16 slide switches and 16 LEDs
 | **Component** | **Resistor [Ω]** | **PIN** | 
 | :-: | :-: | :-: |
 | SW0 | 10K | J15 |
@@ -98,3 +98,29 @@ end Behavioral;
 ```
 ### Time waveforms
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/03-vivado/Images/mux2bit4to1waveform.png">
+
+## Vivado tutorial
+1. **How to create a project**
+   - File --> Project --> New... --> Next
+   - Choose project name and location --> Next
+   - **RTL Project** --> Next
+   - Add/create source or skip --> Next
+   - Default part
+   - Choose from **Boards** Nexys A7-50T --> Next
+   - Finnish
+2. **How to add source file**
+   - File --> Add Sources...
+   - Add or create design sources
+   - Add/create file
+   - File type **VHDL**
+   - Finnish
+3. **How to add testbench file**
+   - File --> Add Sources...
+   - Add or create simulation sources
+   - Add/create file
+   - File type **VHDL**
+   - Finnish
+4. **Simulation**
+   - Flow --> Run Simulation --> Run Behavioral Simulation
+   - **Zoom Fit** for better view 
+   - Right click on output/input for Signal color or Radix
