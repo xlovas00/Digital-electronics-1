@@ -5,37 +5,37 @@
 | **Component** | **Resistor [Ω]** | **PIN** | 
 | :-: | :-: | :-: |
 | SW0 | 10K | J15 |
-| SW1 |  |  |
-| SW2 |  |  | 
-| SW3 |  |  | 
-| SW4 |  |  |
-| SW5 |  |  | 
-| SW6 |  |  | 
-| SW7 |  |  | 
-| SW8 |  |  | 
-| SW9 |  |  | 
-| SW10 |  |  | 
-| SW11 |  |  | 
-| SW12 |  |  | 
-| SW13 |  |  | 
-| SW14 |  |  | 
-| SW15 |  |  | 
-| LED0 |  |  |
-| LED1 |  |  |
-| LED2 |  |  | 
-| LED3 |  |  | 
-| LED4 |  |  |
-| LED5 |  |  | 
-| LED6 |  |  | 
-| LED7 |  |  | 
-| LED8 |  |  | 
-| LED9 |  |  | 
-| LED10 |  |  | 
-| LED11 |  |  | 
-| LED12 |  |  | 
-| LED13 |  |  | 
-| LED14 |  |  | 
-| LED15 |  |  | 
+| SW1 | 10K | L16 |
+| SW2 | 10K | M13 | 
+| SW3 | 10K | R15 | 
+| SW4 | 10K | R17 |
+| SW5 | 10K | T18 | 
+| SW6 | 10K | U18 | 
+| SW7 | 10K | R13 | 
+| SW8 | 10K | T8 | 
+| SW9 | 10K | U8 | 
+| SW10 | 10K | R16 | 
+| SW11 | 10K | T13 | 
+| SW12 | 10K | H6 | 
+| SW13 | 10K | U12 | 
+| SW14 | 10K | U11 | 
+| SW15 | 10K | V10 | 
+| LED0 | 330 | H17 |
+| LED1 | 330 | K15 |
+| LED2 | 330 | J13 | 
+| LED3 | 330 | N14 | 
+| LED4 | 330 | R18 |
+| LED5 | 330 | V17 | 
+| LED6 | 330 | U17 | 
+| LED7 | 330 | U16 | 
+| LED8 | 330 | V16 | 
+| LED9 | 330 | T15 | 
+| LED10 | 330 | U14 | 
+| LED11 | 330 | T16 | 
+| LED12 | 330 | V15 | 
+| LED13 | 330 | V14 | 
+| LED14 | 330 | V12 | 
+| LED15 | 330 | V11 | 
 
 ## Two-bit wide 4-to-1 multiplexer
 ### VHDL achitecture
