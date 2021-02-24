@@ -50,6 +50,7 @@ begin
 
 end Behavioral;
 ```
+### VHDL stimulus process
 ```vhdl
     --------------------------------------------------------------------
     -- Data generation process
