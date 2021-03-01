@@ -20,22 +20,22 @@
 | SW13 | 10K | U12 | 
 | SW14 | 10K | U11 | 
 | SW15 | 10K | V10 | 
-| LED0 | 330 | H17 |
-| LED1 | 330 | K15 |
-| LED2 | 330 | J13 | 
-| LED3 | 330 | N14 | 
-| LED4 | 330 | R18 |
-| LED5 | 330 | V17 | 
-| LED6 | 330 | U17 | 
-| LED7 | 330 | U16 | 
-| LED8 | 330 | V16 | 
-| LED9 | 330 | T15 | 
-| LED10 | 330 | U14 | 
-| LED11 | 330 | T16 | 
-| LED12 | 330 | V15 | 
-| LED13 | 330 | V14 | 
-| LED14 | 330 | V12 | 
-| LED15 | 330 | V11 | 
+| LED0 (active-high) | 330 | H17 |
+| LED1 (active-high) | 330 | K15 |
+| LED2 (active-high) | 330 | J13 | 
+| LED3 (active-high) | 330 | N14 | 
+| LED4 (active-high) | 330 | R18 |
+| LED5 (active-high) | 330 | V17 | 
+| LED6 (active-high) | 330 | U17 | 
+| LED7 (active-high) | 330 | U16 | 
+| LED8 (active-high) | 330 | V16 | 
+| LED9 (active-high) | 330 | T15 | 
+| LED10 (active-high) | 330 | U14 | 
+| LED11 (active-high) | 330 | T16 | 
+| LED12 (active-high) | 330 | V15 | 
+| LED13 (active-high) | 330 | V14 | 
+| LED14 (active-high) | 330 | V12 | 
+| LED15 (active-high) | 330 | V11 | 
 
 ## Two-bit wide 4-to-1 multiplexer
 ### VHDL achitecture
