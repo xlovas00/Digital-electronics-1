@@ -133,5 +133,5 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms; always display all inputs and outputs
-
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/04-segment/Images/7seg.png">
 
