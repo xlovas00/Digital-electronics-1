@@ -88,7 +88,7 @@ begin
 
 end Behavioral;
 ```
-### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts
+### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting
 ```vhdl
 p_stimulus : process
     begin
