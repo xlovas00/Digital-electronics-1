@@ -135,3 +135,5 @@ p_stimulus : process
 ### Screenshot with simulated time waveforms; always display all inputs and outputs
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/04-segment/Images/7seg.png">
 
+### Listing of VHDL code from source file top.vhd with 7-segment module instantiation
+
