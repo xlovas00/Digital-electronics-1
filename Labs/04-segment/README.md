@@ -132,3 +132,6 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
+### Screenshot with simulated time waveforms; always display all inputs and outputs
+
+
