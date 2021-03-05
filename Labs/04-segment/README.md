@@ -2,7 +2,7 @@
 ## Github link
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
 
-## Figure or table with connection of 7-segment displays on Nexys A7 board
+### Figure or table with connection of 7-segment displays on Nexys A7 board
 | **Component** | **Resistor [Ω]** | **PIN** | 
 | :-: | :-: | :-: |
 | CA | 100 | T10 |
