@@ -1,6 +1,16 @@
 # 05-counter
 ## Github link
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
+
+### Figure or table with connection of push buttons on Nexys A7 board
+| **Component** | **Resistor [kΩ]** | **PIN** | **Logic/voltage value when pressed** | 
+| :-: | :-: | :-: | :-: |
+| BTNL | 10 | P17 | High |
+| BTNR | 10 | M17 | High |
+| BTNU | 10 | M18 | High |
+| BTND | 10 | P18 | High | 
+| BTNC | 10 | N17 | High |
+
 ### Table with calculated values.
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
