@@ -66,7 +66,7 @@ begin
     clk_en0 : entity work.clock_enable
         generic map(
             --- WRITE YOUR CODE HERE
-            g_MAX => 100000000
+            g_MAX => 1000000
         )
         port map(
             --- WRITE YOUR CODE HERE
