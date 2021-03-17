@@ -196,3 +196,4 @@ end architecture Behavioral;
 ```
 
 ### Image of the driver schematic. The image can be drawn on a computer or by hand
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/06-display_driver/Images/eight_digit_driver.png">
