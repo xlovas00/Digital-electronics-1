@@ -504,3 +504,6 @@
 
 ### Screenshot with simulated time waveform - t_ff_rst
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/07-ffs/Images/time_waveform_t_ff_rst.png">
+
+### Image of the shift register schematic
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/07-ffs/Images/shift_register.png">
