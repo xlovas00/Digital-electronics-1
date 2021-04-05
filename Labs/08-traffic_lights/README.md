@@ -1,5 +1,6 @@
 # 08-traffic_lights
 ## Github link
+
 [https://github.com/xlovas00/Digital-electronics-1](https://github.com/xlovas00/Digital-electronics-1)
 
 ## 1. Preparation tasks
