@@ -21,14 +21,13 @@ architecture testbench of tb_cnt_project is
     signal s_clk_100MHz : std_logic;
     signal s_reset      : std_logic;
     signal s_en         : std_logic;
-    signal s_cnt_up     : std_logic;
     signal s_cnt_A        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_B        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_C        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_D        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
 
 begin
-    -- Connecting testbench signals with cnt_up_down entity
+    -- Connecting testbench signals with cnt_project entity
     -- (Unit Under Test)
     uut_cnt : entity work.cnt_project
         generic map(
