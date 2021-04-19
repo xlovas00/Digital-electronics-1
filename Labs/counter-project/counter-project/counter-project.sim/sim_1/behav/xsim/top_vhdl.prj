@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../counter-project.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../counter-project.srcs/sources_1/new/cnt_project.vhd" \
+"../../../../counter-project.srcs/sources_1/new/hex_7seg.vhd" \
+"../../../../counter-project.srcs/sources_1/new/top.vhd" \
+
+# Do not sort compile order
+nosort
