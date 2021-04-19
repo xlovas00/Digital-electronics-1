@@ -17,9 +17,6 @@ entity cnt_project is
     );
 end entity cnt_project;
 
-------------------------------------------------------------------------
--- Architecture body for n-bit counter
-------------------------------------------------------------------------
 architecture behavioral of cnt_project is
 
     -- Local counter
@@ -29,11 +26,7 @@ architecture behavioral of cnt_project is
     signal s_cnt_local_D : unsigned(g_CNT_WIDTH - 1 downto 0);
 
 begin
-    --------------------------------------------------------------------
-    -- p_cnt_up_down:
-    -- Clocked process with synchronous reset which implements n-bit 
-    -- up/down counter.
-    --------------------------------------------------------------------
+
     p_cnt_project : process(clk)
     begin
         if rising_edge(clk) then
@@ -45,13 +38,13 @@ begin
                 s_cnt_local_D <= (others => '0');-- Clear all bits
 
             elsif (en_i = '1') then
-                if ( s_cnt_local_A = "1001" and s_cnt_local_B = "1001" and s_cnt_local_C = "1001" and s_cnt_local_D = "1001") then
+                if ( s_cnt_local_A = "1000" and s_cnt_local_B = "1001" and s_cnt_local_C = "1001" and s_cnt_local_D = "1001") then
                     s_cnt_local_A <= (others => '0');-- Clear all bits
                     s_cnt_local_B <= (others => '0');-- Clear all bits
                     s_cnt_local_C <= (others => '0');-- Clear all bits
                     s_cnt_local_D <= (others => '0');-- Clear all bits
                 else
-                    if (s_cnt_local_A = "1001") then
+                    if (s_cnt_local_A = "1000") then
                         s_cnt_local_A <= "0000";
                         if (s_cnt_local_B = "1001") then
                             s_cnt_local_B <= "0000";
@@ -69,7 +62,7 @@ begin
                             s_cnt_local_B <= s_cnt_local_B + 1;
                         end if;
                     else
-                        s_cnt_local_A <= s_cnt_local_A + 1;
+                        s_cnt_local_A <= s_cnt_local_A + 2;
                     end if;
                 end if;
             end if;
