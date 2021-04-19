@@ -154,7 +154,6 @@
         end case;
     end process p_output_fsm;
 ```
-
 ### Screenshot(s) of the simulation, from which it is clear that controller works correctly
 <img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/08-traffic_lights/Images/simulation_tlc.png">
 
