@@ -9,7 +9,6 @@ entity cnt_project is
     port(
         clk      : in  std_logic;       -- Main clock
         reset    : in  std_logic;       -- Synchronous reset
-        en_i     : in  std_logic;       -- Enable input
         cnt_o_A    : out std_logic_vector(g_CNT_WIDTH - 1 downto 0);
         cnt_o_B    : out std_logic_vector(g_CNT_WIDTH - 1 downto 0);
         cnt_o_C    : out std_logic_vector(g_CNT_WIDTH - 1 downto 0);
@@ -32,17 +31,19 @@ begin
         if rising_edge(clk) then
         
             if (reset = '1') then               -- Synchronous reset
-                s_cnt_local_A <= (others => '0');-- Clear all bits
-                s_cnt_local_B <= (others => '0');-- Clear all bits
-                s_cnt_local_C <= (others => '0');-- Clear all bits
-                s_cnt_local_D <= (others => '0');-- Clear all bits
+                -- Clear all bits
+                s_cnt_local_A <= (others => '0');
+                s_cnt_local_B <= (others => '0');
+                s_cnt_local_C <= (others => '0');
+                s_cnt_local_D <= (others => '0');
 
-            elsif (en_i = '1') then
+            else
                 if ( s_cnt_local_A = "1000" and s_cnt_local_B = "1001" and s_cnt_local_C = "1001" and s_cnt_local_D = "1001") then
-                    s_cnt_local_A <= (others => '0');-- Clear all bits
-                    s_cnt_local_B <= (others => '0');-- Clear all bits
-                    s_cnt_local_C <= (others => '0');-- Clear all bits
-                    s_cnt_local_D <= (others => '0');-- Clear all bits
+                    --Clear all bits
+                    s_cnt_local_A <= (others => '0');
+                    s_cnt_local_B <= (others => '0');
+                    s_cnt_local_C <= (others => '0');
+                    s_cnt_local_D <= (others => '0');
                 else
                     if (s_cnt_local_A = "1000") then
                         s_cnt_local_A <= "0000";

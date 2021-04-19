@@ -20,7 +20,6 @@ architecture testbench of tb_cnt_project is
     --Local signals
     signal s_clk_100MHz : std_logic;
     signal s_reset      : std_logic;
-    signal s_en         : std_logic;
     signal s_cnt_A        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_B        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_C        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
@@ -36,7 +35,6 @@ begin
         port map(
             clk      => s_clk_100MHz,
             reset    => s_reset,
-            en_i     => s_en,
             cnt_o_A    => s_cnt_A,
             cnt_o_B    => s_cnt_B,
             cnt_o_C    => s_cnt_C,
@@ -79,9 +77,6 @@ begin
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
-
-        -- Enable counting
-        s_en     <= '1';
 
         report "Stimulus process finished" severity note;
         wait;
