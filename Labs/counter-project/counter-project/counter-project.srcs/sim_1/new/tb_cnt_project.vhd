@@ -18,7 +18,7 @@ architecture testbench of tb_cnt_project is
     constant c_CLK_100MHZ_PERIOD : time    := 10 ns;
 
     --Local signals
-    signal s_clk_100MHz : std_logic;
+    signal s_clk : std_logic;
     signal s_reset      : std_logic;
     signal s_cnt_A        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
     signal s_cnt_B        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
@@ -33,7 +33,7 @@ begin
             g_CNT_WIDTH  => c_CNT_WIDTH
         )
         port map(
-            clk      => s_clk_100MHz,
+            clk      => s_clk,
             reset    => s_reset,
             cnt_o_A    => s_cnt_A,
             cnt_o_B    => s_cnt_B,
@@ -47,9 +47,9 @@ begin
     p_clk_gen : process
     begin
         while now < 100200 ns loop         -- 100 200 periods of 100MHz clock
-            s_clk_100MHz <= '0';
+            s_clk <= '0';
             wait for c_CLK_100MHZ_PERIOD / 2;
-            s_clk_100MHz <= '1';
+            s_clk <= '1';
             wait for c_CLK_100MHZ_PERIOD / 2;
         end loop;
         wait;
