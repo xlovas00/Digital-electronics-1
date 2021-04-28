@@ -81,4 +81,4 @@ begin
 end architecture behavioral;
 ```
 # Simulation
-<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/counter-project/Images/counter_distance.png">
+<img src="https://github.com/xlovas00/Digital-electronics-1/blob/main/Labs/counter_distance/Images/counter_distance.png">
