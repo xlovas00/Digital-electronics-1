@@ -47,7 +47,7 @@ begin
                     s_cnt_local_C <= (others => '0');
                     s_cnt_local_D <= (others => '0');
                 else
-                    if (s_cnt_local_A = "1000") then                        -- display A = 9 -> reset display A
+                    if (s_cnt_local_A = "1000") then                        -- display A = 8 -> reset display A
                         s_cnt_local_A <= "0000";
                         if (s_cnt_local_B = "1001") then                    -- display B = 9 -> reset display B
                             s_cnt_local_B <= "0000";
