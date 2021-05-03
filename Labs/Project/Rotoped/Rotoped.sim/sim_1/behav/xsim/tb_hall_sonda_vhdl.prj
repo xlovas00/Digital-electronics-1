@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Rotoped.srcs/sources_1/new/hall_sonda.vhd" \
+"../../../../Rotoped.srcs/sim_1/new/tb_hall_sonda.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1 @@
+-wto "5baccf069f8c4a4e9f4ee064346e5857" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_hall_sonda_behav" "xil_defaultlib.tb_hall_sonda" -log "elaborate.log" 
